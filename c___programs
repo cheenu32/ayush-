@@ -1,0 +1,205 @@
+Name:-
+
+#include <stdio.h>
+
+int main()
+{
+    printf("AYUSH SINGH");
+
+    return 0;
+}
+
+1st question from 18 questions:-
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    int b;
+    float f;
+    double d;
+    scanf("%c",&a);
+    scanf("%d",&b);
+    scanf("%f",&f);
+    scanf("%lf",&d);
+    
+    printf("%c\n",a);
+    printf("%d\n",b);
+    printf("%f\n",f);
+    printf("%lf\n",d);
+
+    return 0;
+}
+
+2nd question from 18 questions:-
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum;
+    printf("enter the value of a&b\n");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("sum=%d",sum);
+
+    return 0;
+}
+
+
+ 3rd question:- 
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum,multi,di,subs;
+    printf("enter the value of a&b\n");
+    scanf("%d%d",&a,&b);
+    
+    sum=a+b;
+    printf("sum=%d\n",sum);
+    subs=a-b;
+    printf("substraction=%d\n",subs);
+    multi=a*b;
+    printf("multiplication=%d\n",multi);
+    di=a/b;
+    printf("divison=%d\n",di);
+    
+
+    return 0;
+}
+
+4th question -
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum,peri;
+    printf("enter the value of a&b\n");
+    scanf("%d%d",&a,&b);
+    
+    printf("perimeter of rectangle:=%d\n",a+a+b+b);
+    
+    
+
+    return 0;
+}
+
+
+ 5th question==
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum,peri;
+    printf("enter the value of a&b\n");
+    scanf("%d%d",&a,&b);
+    
+    printf("area of rectangle:=%d\n",a*b);
+    
+    
+
+    return 0;
+}
+
+6th question==
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a\n");
+    scanf("%f",&a);
+    
+    
+    printf("diameter of circle:=%f\n", 2*a);
+    printf("circumference of circle:=%f\n", 2*3.14*a);
+    printf("area of circle:=%f\n", 3.14*a*a);
+    
+    
+
+    return 0;
+}
+
+7th question==
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a\n");
+    scanf("%f",&a);
+    
+    
+    printf("cm to m:=%f\n", a/100);
+    printf("cm to km:=%f\n", a/1000);
+
+    
+    
+
+    return 0;
+}
+
+8th ques 
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a\n");
+    scanf("%f",&a);
+    
+    
+    printf("cel to faren:=%f\n", (a*1.8)+32);
+    return 0;
+}
+
+9th question=
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a\n");
+    scanf("%f",&a);
+    
+    
+    printf("faren to cel:=%f\n", ((a-32)*5)/9);
+    return 0;
+}
+
+10 question==
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int a,b,c,d;
+    printf("enter the value of a\n");
+    scanf("%d",&a);
+    
+    b=a/365;
+    c=(a%365)/7;
+    d=((a%365)%7);
+    printf("year:=%d\n",b);
+    printf("weeks:=%d\n",c);
+    printf("days:=%d\n",d);
+    return 0;
+}
